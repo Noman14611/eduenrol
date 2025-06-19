@@ -36,7 +36,7 @@ def course_section():
     st.subheader("📋 Available Courses")
 
     if not courses:
-        st.info("No courses added yet.")
+        st.info("https://youtube.com/playlist?list=PLGjplNEQ1it8-0CmoljS5yeV-GlKSUEt0&si=d4AUDQPaG5YZ2riK")
     else:
         for idx, course in enumerate(courses):
             st.markdown(f"### 🎓 {course['title']}")
