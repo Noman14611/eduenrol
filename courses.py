@@ -14,7 +14,7 @@ def course_section():
         desc = st.text_area("Description")
         fee = st.number_input("Course Fee", min_value=0)
         duration = st.text_input("Duration (e.g., 4 weeks)")
-        video_url = st.text_input("Video URL (YouTube or Drive preview link)")
+        video_url = st.text_input("https://youtube.com/playlist?list=PLGjplNEQ1it8-0CmoljS5yeV-GlKSUEt0&si=d4AUDQPaG5YZ2riK")
 
         if st.button("Add Course"):
             if not title or not desc or not duration:
