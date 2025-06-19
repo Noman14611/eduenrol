@@ -1,11 +1,9 @@
 [
   {
     "title": "Python for Beginners",
-    "desc": "Intro to Python",
+    "desc": "Introductory course to Python programming.",
     "fee": 2500,
     "duration": "4 Weeks",
     "video": "https://www.youtube.com/watch?v=rfscVS0vtbw"
   }
 ]
-
-
