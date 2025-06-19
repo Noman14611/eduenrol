@@ -45,6 +45,6 @@ def course_section():
 
             # ✅ Embed video if available
             if course.get("video"):
-                st.video(course["video"])
+                st.video(course["https://youtube.com/playlist?list=PLGjplNEQ1it8-0CmoljS5yeV-GlKSUEt0&si=d4AUDQPaG5YZ2riK"])
 
             st.markdown("---")
